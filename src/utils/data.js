@@ -2,6 +2,24 @@ export const options = ["Projects", "Skills", "Contacts"];
 
 export const projectData = [
   {
+    name: "GMGA",
+    description:
+      "Social network for Extreme Sport Guides where tourists can check if their guide is a licensed one. While authorized users can add and monitor news connected to the industry.",
+    stack: "I participated in project by building Front-end on React",
+    textColor: "white",
+    mainColor: "#f05e47",
+    link: "https://guideportal.mountainguide.ge/",
+  },
+  {
+    name: "MPA",
+    description: "MPA is Event Promotion and Booking agency based in Georgia, booking big names like Bruno Mars, Killers and many more.",
+    stack:
+      "I participated in project by building Front-end and Back-end CMS using React / Node",
+    textColor: "white",
+    mainColor: "#003642",
+    link: "https://mpa-agency.com/",
+  },
+  {
     name: "Qenja",
     description:
       " E-commerce website for Georgian Modern Ethno Clothes Manufacturer",
@@ -18,16 +36,6 @@ export const projectData = [
     textColor: "white",
     mainColor: "#0000e0",
     link: "https://dblock.fly.dev/",
-  },
-  {
-    name: "MTAMTA",
-    description:
-      "MTAMTA is Georgian mountain guide’s yearly marathon to be held in 2023.",
-    stack:
-      "I participated in project by building Front-end using  Vanilla JS / HTML / CSS ",
-    textColor: "white",
-    mainColor: "#f05e47",
-    link: "https://mta-mta.ge/",
   },
   {
     name: "NWA",
@@ -49,26 +57,32 @@ export const skills = [
   },
   {
     skillNum: "02",
-    skillName: "REACT",
+    skillName: "TS",
     description:
-      "Strong Knowledge of React, React-Router, Redux / Redux Saga, Styled Components and other attributes of React Ecosystem.",
+      "Strong understanding of TypeScript's type system and its ability to prevent errors and improve code quality.",
   },
   {
     skillNum: "03",
-    skillName: "GRAPH QL",
+    skillName: "REACT",
     description:
-      "Knowledge of Graph QL, Apollo Client, Apollo Server and other attributes of Graph QL Ecosystem.",
+      "Knowledge of React and It's advanced design patterns, State Management (Redux, Zustand) Libraries, Styling Libraries and other attributes of React Ecosystem.",
   },
   {
     skillNum: "04",
+    skillName: "NEXT JS",
+    description:
+      "Knowledge and understanding of Next.js Pages and App Router to build efficient, scalable, and SEO-friendly applications.",
+  },
+  {
+    skillNum: "05",
     skillName: "NODE JS",
     description:
       "Experience with Express JS, Nest JS and NoSQL Databases (Mongo)",
   },
   {
-    skillNum: "05",
-    skillName: "TS",
+    skillNum: "06",
+    skillName: "Unit Testing",
     description:
-      "Currently learning Typescript and getting stronger in it day by day.",
+      "Experience of writing and implementing unit tests using Jest in several projects.",
   },
 ];

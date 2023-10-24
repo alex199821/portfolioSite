@@ -13,8 +13,8 @@ const Home = () => {
           <UnderlinedString string="Front-end Developer" />
           <div className="aboutContainer">
             <p className="about">
-              I am front-end engineer with strong knowledge of JS, ES6+, React
-              and its ecosystem. I also have proeficiency in Node.JS with
+              I am front-end engineer with strong knowledge of JS, TS, React
+              and its ecosystem. I also have skills in Node.JS with
               full-stack projects behind my back.
             </p>
           </div>

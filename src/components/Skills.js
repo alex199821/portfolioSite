@@ -31,6 +31,15 @@ const Skills = () => {
           })}
         </div>
       </span>
+      <section className="fastLearningContainer">
+        <p className="fastLearningContainerText">
+          Besides skills mentioned above I believe that my main strength as a
+          developer is my ability to learn and adapt. I am always eager to learn
+          new things, and I am not afraid to take on new challenges. This skill
+          has allowed me to master new Technologies what allowed me to quickly
+          jump in on new projects with very niche requirements.
+        </p>
+      </section>
     </Wrapper>
   );
 };

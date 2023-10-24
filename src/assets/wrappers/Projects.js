@@ -21,15 +21,16 @@ const Wrapper = styled.section.attrs((props) => {
     .projectName {
       font-family: "Microsquare", sans-serif;
       font-size: 2.5vw;
+      width: fit-content;
       text-shadow: 2px 2px black;
       -webkit-text-stroke: 1px black;
       color: var(--primary);
     }
     .projectDescription {
       font-family: "Microsquare", sans-serif;
-      font-size: 1vw;
-      margin-top: 10px;
-      margin-left: 10px;
+      font-size: 0.85vw;
+      width: 70%;
+      margin-left: 20px;
       color: black;
     }
   }

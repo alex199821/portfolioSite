@@ -6,7 +6,7 @@ const Wrapper = styled.section`
     width: 80%;
     margin: auto;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     margin-top: 50px;
   }
   .singleSkillContainer {
@@ -17,6 +17,14 @@ const Wrapper = styled.section`
     width: 100%;
     column-gap: calc(10% / 2);
     row-gap: 40px;
+  }
+  .fastLearningContainer {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    .fastLearningContainerText {
+      font-size: 16px;
+    }
   }
   @media (max-width: 840px) {
     .skills {
