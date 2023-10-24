@@ -14,7 +14,7 @@ export const projectData = [
     name: "MPA",
     description: "MPA is Event Promotion and Booking agency based in Georgia, booking big names like Bruno Mars, Killers and many more.",
     stack:
-      "I participated in project by building Front-end and Back-end CMS using React / Node",
+      "I participated in project by building Front-end and Back-end CMS using React / Exoress",
     textColor: "white",
     mainColor: "#003642",
     link: "https://mpa-agency.com/",
@@ -23,7 +23,7 @@ export const projectData = [
     name: "Qenja",
     description:
       " E-commerce website for Georgian Modern Ethno Clothes Manufacturer",
-    stack: " Fullstack project built on React, Mongo and Node JS (Express)",
+    stack: "Fullstack project which I built on React, Mongo and Node JS (Express)",
     textColor: "#d9ec00",
     mainColor: "black",
     link: "https://qenja.fly.dev/",
@@ -32,7 +32,7 @@ export const projectData = [
     name: "D BLOCK",
     description:
       "Landing Page / Subscribe form for new coworking space in Tbilisi",
-    stack: " Fullstack project built on React, Apollo, GraphQL & Mongo",
+    stack: "Fullstack project built on React, Apollo, GraphQL & Mongo",
     textColor: "white",
     mainColor: "#0000e0",
     link: "https://dblock.fly.dev/",

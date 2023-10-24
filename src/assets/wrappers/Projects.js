@@ -97,7 +97,7 @@ const Wrapper = styled.section.attrs((props) => {
       }
       .projectDescription {
         font-family: "Microsquare", sans-serif;
-        font-size: 4vw;
+        font-size: 3vw;
         margin-top: 10px;
         margin-left: 0px;
         color: ${(props) => props.textColor};

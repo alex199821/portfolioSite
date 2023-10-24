@@ -1,6 +1,7 @@
 import Wrapper from "../assets/wrappers/FullTimeWork";
 import UnderlinedString from "./UnderlinedString";
 import sstpay from "../assets/images/sstpay.png";
+import sstpayPhone from "../assets/images/sstpayPhone.png";
 import Projects from "./Projects";
 import { projectData } from "../utils/data";
 import React, { useRef, useEffect } from "react";
@@ -25,7 +26,11 @@ const FullTimeWorkContainer = () => {
           at same time maintaining Legacy code base for current operations.
         </p>
         <div className="sstImageContainer">
-          <img src={sstpay} alt="TBC Pay Terminal" />
+          {window.innerWidth < 840 ? (
+            <img src={sstpayPhone} alt="TBC Pay Terminal" />
+          ) : (
+            <img src={sstpay} alt="TBC Pay Terminal" />
+          )}
         </div>
       </span>
     </Wrapper>

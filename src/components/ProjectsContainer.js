@@ -5,16 +5,17 @@ import { projectData } from "../utils/data";
 import React, { useRef, useEffect } from "react";
 import { useOutletContext } from "react-router-dom";
 const ProjectsContainer = () => {
-  const scollToRef = useRef();
-  let setRef = useOutletContext()[0];
-  useEffect(() => {
-    setRef(scollToRef);
-  }, []);
+  // const scollToRef = useRef();
+  // let setRef = useOutletContext()[0];
+  // useEffect(() => {
+  //   setRef(scollToRef);
+  // }, []);
   return (
-    <Wrapper ref={scollToRef}>
+    // <Wrapper ref={scollToRef}>
+    <Wrapper >
       <span className="projectsContainer">
         <div className="projectPageLabelContainer">
-          <UnderlinedString string="PROJECTS" />
+          <UnderlinedString string="OTHER PROJECTS" />
         </div>
         <p className="instructions">Click on container to visit project</p>
         {projectData.map((project, index) => {
