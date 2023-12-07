@@ -1,4 +1,4 @@
-export const options = ["Projects", "Skills", "Contacts"];
+export const options = ["Projects", "Skills", "Contacts", "Resume"];
 
 export const projectData = [
   {

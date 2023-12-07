@@ -15,6 +15,19 @@ const Wrapper = styled.section`
     font-family: "Microsquare", sans-serif;
     margin-top: 15px;
   }
+  .socialNetworksContainer{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    column-gap: 15px;
+    .singleSocialNetwork{
+      display: flex;
+      width: 35px;
+      height: auto;
+    }
+  }
   @media (max-width: 840px) {
     .contactInfo {
       font-size: 3.5vw;
